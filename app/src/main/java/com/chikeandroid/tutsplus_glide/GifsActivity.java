@@ -20,8 +20,7 @@ public class GifsActivity extends AppCompatActivity {
         ImageView gifImageView = (ImageView) findViewById(R.id.iv_gif);
 
         Glide.with(this)
-                .load("http://i.imgur.com/Vth6CBz.gif")
-                .asBitmap()
+                .load("http://i.giphy.com/JIX9t2j0ZTN9S.gif")
                 .placeholder(R.drawable.ic_cloud_off_red)
                 .error(R.drawable.ic_cloud_off_red)
                 .into(gifImageView);
